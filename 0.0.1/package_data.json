@@ -1,0 +1,41 @@
+{
+    "name": "00-agent",
+    "version": "0.0.1",
+    "description": "Reserved",
+    "main": "index.js",
+    "scripts": {},
+    "author": "",
+    "license": "UNLICENSED",
+    "_id": "00-agent@0.0.1",
+    "_nodeVersion": "25.4.0",
+    "_npmVersion": "11.7.0",
+    "dist": {
+        "integrity": "sha512-RueS/N/4wamp7epSzi6eYySK7Bgh51/2CAdfPbHhQGwEyX62Vl6iZhAQ/S9LwcRYl0IG3OrEh4nfODa+qHoQ5Q==",
+        "shasum": "961009a2e095a6bb36e9af720f529b5baf04b353",
+        "tarball": "https://registry.npmjs.org/00-agent/-/00-agent-0.0.1.tgz",
+        "fileCount": 2,
+        "unpackedSize": 179,
+        "signatures": [
+            {
+                "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+                "sig": "MEUCIQCiQd+0oL5UI4SxTe0YxDqZW/HYi3KRfgvIe47A/prsZQIgA6bIHQ1XqRVvYIx9iDqmnb48xxgWRd01QaiLFfyXgTo="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "ars923",
+        "email": "context@hlos.ai"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "ars923",
+            "email": "context@hlos.ai"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages-npm-production",
+        "tmp": "tmp/00-agent_0.0.1_1769495647946_0.4279435410905721"
+    },
+    "_hasShrinkwrap": false
+}

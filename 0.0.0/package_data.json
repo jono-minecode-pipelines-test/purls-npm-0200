@@ -1,0 +1,64 @@
+{
+    "name": "-wlq-mxgrapheditor",
+    "version": "0.0.0",
+    "type": "module",
+    "main": "dist/index.umd.js",
+    "module": "dist/index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@typed-mxgraph/typed-mxgraph": "^1.0.7",
+        "@types/lodash": "^4.14.184",
+        "ant-design-vue": "^3.2.11",
+        "less": "^4.1.3",
+        "lodash": "^4.17.21",
+        "mxgraph": "^4.2.2",
+        "react-xml-parser": "^1.1.8",
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.11",
+        "@vitejs/plugin-vue": "^3.0.3",
+        "typescript": "^4.6.4",
+        "vite": "^3.0.7",
+        "vue-tsc": "^0.39.5"
+    },
+    "description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+    "_id": "-wlq-mxgrapheditor@0.0.0",
+    "_nodeVersion": "16.13.0",
+    "_npmVersion": "8.1.0",
+    "dist": {
+        "integrity": "sha512-V3J1dN0ehTIuMWr3UhTLTENHkQhl/bzgcOgqqAnUlfo4wGvApQB71quv2gNm3Q+pp+/9K6geUWnx+5I1dfDb9g==",
+        "shasum": "1d62fe3e2a3eb7452d978c49f54ed61cca77838b",
+        "tarball": "https://registry.npmjs.org/-wlq-mxgrapheditor/-/-wlq-mxgrapheditor-0.0.0.tgz",
+        "fileCount": 33,
+        "unpackedSize": 2840829,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIAyAAR248NRcNljAzForRnxMFWuQWJbyRQn8bPlzeV1UAiBwLa6CH8B0U7fvQNjUNRGgXqjP3OyJC+PX/xNVnHnkYQ=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjBE6RACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpHRQ//S4qwftH5JhfQ9BSPOChP4DHHMoWyrJLRI3vea9W5hVUeH1a7\r\nlemV+FmMLxWOeOwpEveDivrrK83je6iTKRyGw8W3ez9y8llEgYQx8R5jhw8N\r\n2WYE72E+w7J7ogykxmWnGnvpMnrbYsYUbwL18MAyQ3hsoxiobcui/ybplFsn\r\nGpc8Es0oTHDhyA/kNXrUmtN4K8mO627YdoMxuPGINjrfFxP3PwqJL11kZve6\r\nonmDDYWhWr9H89W96gQJfg2aiJqB9aJHbORpB5TOW6GUs1n4pLKPgtOSP35i\r\noxV4yS8x9ydPHaA75FVdavpHqXU+G/z/ATy3ohw8bEc/AuPGp8Och4VBvYyc\r\nogGzyqhIrBW7bzs8Y/25VNS4CuIj+l3rZrFq17P2YH6PwLn+yGwyjuV5ryqR\r\nF4zA9Jey2G2bevyVFhfa2YujgXG26FLH1mM414rDW/CTFLpe9RjZpUZDmuGx\r\n8DSgiijw3Mt82pN+PsTCj4cNwdpbBY1BR2dNbRPyTvHoVvt2iHBtfEIpQRhi\r\nb1ggQVtzDq98j5232iwddFG5Ke2a8uJP7mR9A5uGq9/g2cLlabozn1JlxCq8\r\nQNasriMMOdZvYDVL1f+JS21gu8Bs0ZJt3s216ymT6SgOsVaWlFsZRAPhEgXZ\r\nPgS9oOifdRPWeQEz2g+t3S2IgRFiQAWKN6A=\r\n=Fpc7\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "px_wlq",
+        "email": "535346881@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "px_wlq",
+            "email": "535346881@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-wlq-mxgrapheditor_0.0.0_1661226641452_0.31938200503814684"
+    },
+    "_hasShrinkwrap": false,
+    "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+}

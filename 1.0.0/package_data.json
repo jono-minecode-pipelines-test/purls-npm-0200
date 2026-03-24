@@ -1,0 +1,48 @@
+{
+    "name": "004-custom",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "_id": "004-custom@1.0.0",
+    "_nodeVersion": "14.17.3",
+    "_npmVersion": "6.14.14",
+    "dist": {
+        "integrity": "sha512-wkVJjYNySug1DI56XKs99OBbLLS1kozLtKnOIjMvTChD1G8fdxsiouEttjzSAx1qmS1eCCDsUSZSw7oxh7hpqg==",
+        "shasum": "d2e896293e3a4269adfaa67fea02cba7dbe70cb0",
+        "tarball": "https://registry.npmjs.org/004-custom/-/004-custom-1.0.0.tgz",
+        "fileCount": 3,
+        "unpackedSize": 479,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiLEv/ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo+JA//fUAOXE8NbRLGb5jFqrE5QwBitdvkV8UtLPqiQZUdXtKTD1zS\r\nQeGiivaIoOEPaA5Af0isoZnXNG8hPQiEGTUguRMbON25Tc43kIWQ4z65XVZB\r\ntSH5SQKpWjqbIxXFWTwcF3WcBzjHeBIJY6NrWsF3pC07glZDSRAyAbRzU0ns\r\n9J820aoIP2kn/2VmmO5HK/Slr+G4b4MuAzWGDTjGs9+jhWCl3G0ooVTlBi9e\r\nSLZHUcmZfp7a8ivvrCy3TdxAJCSSuWdByHkjzjrGSVM1V/T+AAg2DD2hzWj9\r\nIbJ8fFFTf+d1YUkLoZFOGUxvxnZk3uVUO+cGccRTBdcxKiHKan/1kOH5KA7X\r\nlC+x5pPXKImJwdsuMxlC+/uRrqrr9HIN9FZk5Tjbd3fwhNaRKqib+CAkGprs\r\n30oANba7M/kejPI1KzQvKmcHcEYQKnYBBID+zkZxUfqMUtW4b2Wp9ezoB2vX\r\nfxeNOIpxukOih1MIDah95FAiuPuovGCGQfoUtOZ6BfpZFgX/H+vAfCjDGpF+\r\nOtn85AQ+FmVijh5vusHSkmugeqw5sDP6v8DGSBO7roJ06jQxwg4mBem2PTin\r\nwiIR/WDaY6tiHH/WJEzOxfoIa++MOpxeDOz6rK6GAtg4ES50Fn9pNtLCfkHG\r\nj+IEn4uCcTiOxfGKs6BQUTyYOraU48/KcR0=\r\n=7mLx\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIA5aDsAucsWkGp5a7Lo6IYzXuO7pdQMzzFATRV+l/jKJAiEA/5n4tflx1IapK8GEw+bwQEHngVbNAgiGkMckcUQcb4M="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "afabao",
+        "email": "421377215@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "afabao",
+            "email": "421377215@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/004-custom_1.0.0_1647070207602_0.01950599590542712"
+    },
+    "_hasShrinkwrap": false
+}
