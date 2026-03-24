@@ -1,0 +1,53 @@
+{
+    "name": "-graphql-codegen-client-preset-swc-test",
+    "version": "2.0.3",
+    "description": "GraphQL Code Generator preset for client.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dotansimha/graphql-code-generator.git",
+        "directory": "packages/presets/client"
+    },
+    "license": "MIT",
+    "scripts": {
+        "prepack": "cd ./swc-plugin && yarn build",
+        "lint": "eslint **/*.ts",
+        "test": "jest --no-watchman --config ../../../jest.config.js"
+    },
+    "main": "dist/swc.wasm",
+    "module": "dist/swc.wasm",
+    "typings": "dist/typings/index.d.ts",
+    "typescript": {
+        "definition": "dist/typings/index.d.ts"
+    },
+    "_id": "-graphql-codegen-client-preset-swc-test@2.0.3",
+    "dist": {
+        "shasum": "d216779552fd5a7dd4c19f4778ed9edf2c79f1b2",
+        "integrity": "sha512-yXXNhZ8eEJmGiwvrqK+4wzIvlwmjzQdBW94P7m1pVKd3lksrCKLMZ+0Gv471Z0qJUkAqfu5VLXuHfHvv92cdQA==",
+        "tarball": "https://registry.npmjs.org/-graphql-codegen-client-preset-swc-test/-/-graphql-codegen-client-preset-swc-test-2.0.3.tgz",
+        "fileCount": 34,
+        "unpackedSize": 865692,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC+fSAGib/slZlO+SsR54GUGPTsc6QMg4Ds5QSi5g2SegIgFdpNRFJq63IYzrp9Z09VGm5SMwGby4PrhS55yIIe5Yk="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj8sTJACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrqpQ/9EpYnhMZe9vX/RhNtwSkdM8nU/HdLgKaCM8JkW7PZCMRsPpy8\r\nKfnlr6P087XEnC0giisiYdMPWH3OibJlkxBGTg7OmT2esJorFmFuOWYGea4O\r\n+r4kdIpk99XAXeIUVeua4BNWjxNxsdywZo64ntEgLCUo+iwcPRa5+7v4HoRt\r\nDZJkbQzcD+jyiyS60tBKQID/UwgMNi8pN7XMSZirdr11Uf6j0hOll0zQHEEm\r\nwRg6/J0IFJiLEC//cbD8dgDfdazQLnlYzripI8CFfrkO/QQeiX2/98LOhVfN\r\nO7LjnfETCV3vpAvTw0Qe5CDnp0gg0JhAK448GdJOHvSiVS1ZkBDbo7rggZpd\r\n9YUgBPv41cgrSbJsRIEGo7WFTnjpf3H0kYqIiitxlBbT4Rh4LiXyUHtmvzWY\r\ntsr39am65V9XWQwNv5rsaCodm2oMXXoQBzLdJlcWI8xZSmUPYFepp1SYjAzz\r\nkVTYtn9sifjKQtNJYA82d87cGIBM2npCwhwc7gnZ7+NFFJWgExK70IrqpCOp\r\nYeW6MghdxMbzD8LCiCElNqZHl7ifLMt2CAM72ASxfO8bdgzncBtZksUCRd1n\r\ntyiloAYfXEwur++hBuUIp1RJjKyKY/090MgmlMtRb9EUfkeM9IpSWwIit2Z+\r\nyYVuyl5H6ej4Fqw9B3HkXQoRdHjvz4iZm/E=\r\n=fkw1\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "yassineldeeb",
+        "email": "yassineldeeb94@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "yassineldeeb",
+            "email": "yassineldeeb94@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-graphql-codegen-client-preset-swc-test_2.0.3_1676854473165_0.4838220761662726"
+    },
+    "_hasShrinkwrap": false
+}

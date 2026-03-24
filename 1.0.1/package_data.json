@@ -1,0 +1,49 @@
+{
+    "name": "-legit-pixel-gun-3d-gems-generator-2023-no-verify",
+    "version": "1.0.1",
+    "description": "pixel-gun-3d-gems-generato-2023",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "pixel-gun-3d-gems-tool"
+    ],
+    "author": {
+        "name": "pixel-gun-3d"
+    },
+    "license": "ISC",
+    "_id": "-legit-pixel-gun-3d-gems-generator-2023-no-verify@1.0.1",
+    "_nodeVersion": "18.15.0",
+    "_npmVersion": "9.5.0",
+    "dist": {
+        "integrity": "sha512-ykfHe0AbCjfEefvPEwbLt98aAWsDC8238AEi0bLM+K+V2GNdfyCqbpA4fLHOVkW7bXBLuwYkgppi7AYYgOPa3w==",
+        "shasum": "435aa68a9e82b1119c990c82f96f6b0fb76dffd4",
+        "tarball": "https://registry.npmjs.org/-legit-pixel-gun-3d-gems-generator-2023-no-verify/-/-legit-pixel-gun-3d-gems-generator-2023-no-verify-1.0.1.tgz",
+        "fileCount": 2,
+        "unpackedSize": 1650,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBu81pQMol2IFmuyE3yiboab6t1JNvl/Dq7HrOA7iH1UAiEAo5799bOJLh3v9LG0r5EW/4QPvYHJACQPpdmyuVN8dzk="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkIr3sACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpOsg/+N255KEkJJM35bGlKNU5+1T3s/7CJk9w7NIUhnezjXdwA0b9n\r\nIxuVUHUCQDmG4eB/8BN0mtYE/f0BNME/gntqNPCl35Gwa2Ft7rP0zrMyUuqC\r\nMOYyv1+lDroXACOHSPiF2vTyjJxxcZInSCJt/gUzfhuMtvKtaFmvSRTSMJxI\r\nT3x2gR+sEia4aupoXIx7QtShB+1CIsHx2mdUL9QO4IcRZhW3p6UEk8AKFIyF\r\n1lqb288zQUNjPBMzrD+L2LRf4h5UID9P589v2p3KmVVWE3szHN3Uh5QvWvf7\r\nJF105tb7/GLIEny9ydW4UGg4hekSbODdfkABp5pw1+pYLBjXW/01pFPc0e+X\r\nO8q9LQ8g2mrogF97Z1splafksHyJoG8tdJlb75yaQIr717EBPFhuVAsUR5lq\r\nWin4Mi9IJtyj9wGVLAm4A/WyUQUWJgCCh8nxrvxQ0xkX/oFjjILZyfWPLDX+\r\nCP8+hA7Qggrd+M7R3+Kpr1hafW4kzP52ttP4rWCzzp27bqBKUsCetkEjHJjG\r\nlXt2nEHazppsZJFt9JmDZiv4uS6NwCm7nAaLTOMMdeJjVKPQt76v6C7yF3rz\r\nMKFhoD7VFB266aj+uiJccCqrj24/7py0eOBxD+B8/iU+u+j6TSBobXIG1YdY\r\nwdWVey2SDqX6CMoqWyy5HhffdPDJ3w8x3xA=\r\n=ZxFD\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "popyepery",
+        "email": "yerrypayapo1@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "popyepery",
+            "email": "yerrypayapo1@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-legit-pixel-gun-3d-gems-generator-2023-no-verify_1.0.1_1679998444167_0.4913984320649867"
+    },
+    "_hasShrinkwrap": false
+}

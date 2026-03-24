@@ -1,0 +1,98 @@
+{
+    "name": "-graphql-codegen-client-preset-swc-test",
+    "version": "2.0.2",
+    "description": "GraphQL Code Generator preset for client.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dotansimha/graphql-code-generator.git",
+        "directory": "packages/presets/client"
+    },
+    "license": "MIT",
+    "scripts": {
+        "prepack": "cd ./swc-plugin && yarn build",
+        "lint": "eslint **/*.ts",
+        "test": "jest --no-watchman --config ../../../jest.config.js"
+    },
+    "devDependencies": {
+        "@types/babel__helper-plugin-utils": "7.10.0",
+        "@types/babel__template": "7.4.1"
+    },
+    "dependencies": {
+        "@babel/helper-plugin-utils": "^7.20.2",
+        "@babel/template": "^7.20.7",
+        "@graphql-codegen/add": "^4.0.0",
+        "@graphql-codegen/gql-tag-operations": "2.0.0",
+        "@graphql-codegen/plugin-helpers": "^4.0.0",
+        "@graphql-codegen/typed-document-node": "^3.0.0",
+        "@graphql-codegen/typescript": "^3.0.0",
+        "@graphql-codegen/typescript-operations": "^3.0.0",
+        "@graphql-codegen/visitor-plugin-common": "^3.0.0",
+        "@graphql-tools/documents": "^0.1.0",
+        "@graphql-tools/utils": "^9.0.0",
+        "@graphql-typed-document-node/core": "3.1.1",
+        "tslib": "~2.5.0"
+    },
+    "peerDependencies": {
+        "graphql": "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
+    },
+    "main": "dist/swc.wasm",
+    "module": "dist/esm/index.js",
+    "exports": {
+        ".": {
+            "require": {
+                "types": "./dist/typings/index.d.cts",
+                "default": "./dist/cjs/index.js"
+            },
+            "import": {
+                "types": "./dist/typings/index.d.ts",
+                "default": "./dist/esm/index.js"
+            },
+            "default": {
+                "types": "./dist/typings/index.d.ts",
+                "default": "./dist/esm/index.js"
+            }
+        },
+        "./swc": "./dist/swc.wasm",
+        "./package.json": "./package.json"
+    },
+    "typings": "dist/typings/index.d.ts",
+    "typescript": {
+        "definition": "dist/typings/index.d.ts"
+    },
+    "publishConfig": {
+        "directory": "dist",
+        "access": "public"
+    },
+    "type": "module",
+    "_id": "-graphql-codegen-client-preset-swc-test@2.0.2",
+    "dist": {
+        "shasum": "7a945443325ce2a40d40ec34b744a4aef247c097",
+        "integrity": "sha512-CvtNbZLaQlzqT74m53etTOlkSvhCimGQH3q1djF+NRG4edLlEqm0R3meLdctPoAMNgIWoU5lg0Vlg28rTT7Uhg==",
+        "tarball": "https://registry.npmjs.org/-graphql-codegen-client-preset-swc-test/-/-graphql-codegen-client-preset-swc-test-2.0.2.tgz",
+        "fileCount": 35,
+        "unpackedSize": 869167,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIHw2XW7K5AFhA+iQza3gRRPOAMrL2n2mEzSke4JPACq9AiAZkTiD+jSenvFDNvSUqsBCzXGswOr/nnRt5Dtf+Wb7DQ=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj8r7aACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrYKA/7BpvmMKIVmycczn/x0BABtNAYWrsl0DgF58dxHcsiO8Kh4OAE\r\nHAynl6a8WZli7JE1Seeo0JHyIPHdbz/fG6q8YkoxGppmDSm3m+cYr0oVBJ0i\r\nqCi6eKsLoLaNSy1GCNkj/5sgy5sIfh0YtyJaOnem0g9RIn54Be3LuIR9T5Ur\r\n6G8nVhLcgKiMrAbFCiUqYDXmqYgKuTCit860gqO//IFJdnx16aDDW6NCBrwX\r\nqoNYdFA3VDJB3kIMfN+6bwJ9uUFbKAhWHmgo+q8DviSonzSvEk3NvCyV4Q26\r\nCeGwg480vguciogdxcg0/X31ANzesU7MsTn7BS/XdPZSZQU0Ee5RZ5ztTFyS\r\nf3Jw+boAOw3gJgNKC+RzQsWM8THeSR5VwywH3ihqMpfXs0yvoTOGhrqvvu5B\r\neA0Y6/jK6wJM1/nP+E399svHOJkRzlUBhDj6UqCvFDsispfrDjgHHNIwSF80\r\nvKQnoh3txwl+IYFGoYG0B4oAUSxr1MmwnrS4ukzENPgGKUQK0w2qiH1BQOOa\r\nfml999U0n6Fm1lskSIziJZyHVO80cTvTFbAuMaj1eZbZ9qGtSQnjbG9DaWes\r\nQRCEJm6E9bn/UsbgsrpM8fm3wAfnAT+lYoii7POPGRd7iUngQQ/MpIJyV5VZ\r\ndjvLURxX4bGL8Qg1veyl1g2WMJnV5Ur44fE=\r\n=QYeR\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "yassineldeeb",
+        "email": "yassineldeeb94@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "yassineldeeb",
+            "email": "yassineldeeb94@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-graphql-codegen-client-preset-swc-test_2.0.2_1676852954710_0.3621668308038919"
+    },
+    "_hasShrinkwrap": false
+}
